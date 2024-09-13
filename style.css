@@ -1,7 +1,5 @@
 *{
-
     margin: 0;
-
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,6 +8,7 @@
     width: 100%;
     background-color: #003366;
     font-size: 18px;
+    padding-left: 100px;
 }
 
 .menu ul{
@@ -34,7 +33,6 @@
     background: #0055cc;
     color: white;
     border-bottom: 3px solid gray;
-    text-decoration: underline;
 }
 
 .sec1{
@@ -65,19 +63,26 @@
       display: inline-block;
       width: 100%;
       background-color: #f2f2f2;
-      padding: 20px;
+      padding-left: 90px;
+      padding-top: 10px;
+      padding-bottom: 10px;
 }
 
 .card {
       background-color: #f4f4f4;
       border-radius: 10px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      margin: 90px;
+      margin: 100px;
       padding: 52px;
       text-align: center;
-      width: 400px;
-      height: 400px;
+      width: 350px;
+      height: 300px;
       display: inline-block;
+      font-size: 15px;
+      padding-top: 20px;
+}
+.card h2{
+    font-size: 20px;
 }
 
 .card img {
@@ -97,29 +102,24 @@
       color: #555555;
       margin: 10px;
 }
-
-.img{
+.sec3{
+    padding: 50px;
+}
+.imgu{
     display:inline-block;
-    width: 800px;
-    height: 500px;
-    margin: 10px;
+    width: 300px;
 }
 
-.img img{
-    width: 100%;
-    height: 100%;
-    margin: 40px;
-    border-radius: 10px;
+.imgu img{
     display: inline-block;
+    width: 600px;
+    border-radius: 10px;
 }
-
 .texto{
-    margin: 50px;
-    padding-left: 40px;
-    display: inline-block;  
+    display: inline-block;
+    width: 70%;
     vertical-align: top;
-    text-align: justify;
-    max-width: 800px;
+    padding-left: 330px;
 }
 
 .texto h2{
@@ -130,7 +130,6 @@
 .texto p{
   color: #555555;
   font-size: 25px;
-  text-align: justify;
 }
 
 .rodape {
@@ -161,7 +160,6 @@
 .rodape ul li a:hover{
     color: #cccccc;
     border-bottom: 3px solid gray;
-    text-decoration: underline;
 }
 
 
